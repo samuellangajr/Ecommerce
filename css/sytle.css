@@ -8,3 +8,13 @@
     width: 40px;
     height: 40px;
 }
+.carousel {
+  margin: 20px 0 20px 0;
+}
+.iconRow{
+  background-color: #ff5f2d;
+  border-radius: 5px;
+}
+.carousel-item img{
+  margin: auto;
+}
