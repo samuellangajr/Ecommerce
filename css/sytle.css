@@ -148,3 +148,17 @@ text-color {
   }
 
 }
+
+/*checkout*/
+.botoes-checkout{
+margin-top: 20px;
+}
+.btn-seguinte{
+  background: #ff5f2d;
+  color: white;
+}
+.btn-cancelar{
+  background: white;
+  color: #ff5f2d;
+  border: 1px solid rgb(130, 130, 130);
+}
