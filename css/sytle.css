@@ -18,3 +18,14 @@
 .carousel-item img{
   margin: auto;
 }
+.product-area{
+  background-color: #eee;
+}
+.rounded-circle{
+  background-color: #ff5f2d;
+  width: 35px; 
+  height: 35px;
+}
+.row{
+  margin-bottom: 30px;
+}
