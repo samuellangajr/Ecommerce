@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Confirmação de Pagamento</title>
+    <title>Confirmação do Pagamento</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container mt-5">
         <?php
-            // Código para integrar com a plataforma de pagamento
+            // Código para ser feita a integração com a plataforma de pagamento
             
-            // Verifica se o pagamento foi processado com sucesso
+            // Verificação se o pagamento foi processado com sucesso
             if ($_POST['status'] == 'success') {
                 // Mostra a mensagem de confirmação de pagamento
                 echo '<div class="alert alert-success" role="alert">';
