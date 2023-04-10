@@ -9,6 +9,34 @@
     <title>Confirmação de pagamento</title>
 </head>
 <body>
-    
+    <div class="container mt-5">
+        <?php
+            // Código para ser feita a integração com a plataforma de pagamento
+            
+            // Verificação se o pagamento foi processado com sucesso
+            if ($_POST['status'] == 'success') {
+                // Mostra a mensagem de confirmação de pagamento
+                echo '<div class="alert alert-success" role="alert">';
+                echo '<h4 class="alert-heading">Seu pagamento foi confirmado!</h4>';
+                echo '<p>Obrigado por comprar conosco.</p>';
+                echo '</div>';
+            } else {
+                // Mostra uma mensagem de erro
+                echo '<div class="alert alert-danger" role="alert">';
+                echo '<h4 class="alert-heading">O pagamento não pôde ser processado.</h4>';
+                echo '<p>Por favor, tente novamente ou entre em contacto com o suporte.</p>';
+                echo '</div>';
+            }
+        ?>
+        <div class="d-flex justify-content-center mt-3">
+    <button type="button" class="btn btn-success mr-2">
+        <span class="text-white">Aprovado</span>
+    </button>
+    <button type="button" class="btn btn-danger">
+        <span class="text-white">Rejeitado</span>
+    </button>
+</div>
+
+    </div>
 </body>
 </html>
