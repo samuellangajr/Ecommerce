@@ -114,6 +114,9 @@ text-color {
 }
 
 /*checkout*/
+#head_checkout{
+margin-bottom: 30px;
+}
 .botoes-checkout{
 margin-top: 20px;
 }
